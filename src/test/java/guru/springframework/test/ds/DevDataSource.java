@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class DevDataSource implements FakeDataSource{
     @Override
     public String getConnectionInfo() {
-        return "I'm the dev Datasource";
+        return "I'm the DEV Datasource";
     }
 }
